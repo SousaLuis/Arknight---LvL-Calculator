@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styles.css" rel="stylesheet">
+    <title>Arknight LvL Calculator</title>
+</head>
+<body>
+    <div class="glass">
+        <h1>Arknight - Promotion Calculator</h1>
+        <h4 id="sub"><em> - This calculator is taking into account the fact that you already unlocked LS-6 & CE-6 - </em></h2>
+        <label for="star">Operator number of stars</label>
+        <select name="star" id="star">
+            <option value="3">3*</option>
+            <option value="4">4*</option>
+            <option value="5">5*</option>
+            <option value="6">6*</option>
+        </select>
+        <table id="topTable">
+            <tr id="eliteRow">
+                <td>
+                    <label for="baseE">Operator actual Elite</label>
+                    <select name="baseE" id="baseE">
+                        <option value="E0">Elite 0</option>
+                        <option value="E1">Elite 1</option>
+                        <option value="E2">Elite 2</option>
+                    </select>
+                </td>
+                <td>
+                    <label for="toE">Operator desired Elite</label>
+                    <select name="toE" id="toE">
+                        <option value="E0">Elite 0</option>
+                        <option value="E1" selected="E1">Elite 1</option>
+                        <option value="E2">Elite 2</option>
+                    </select>
+                </td>
+            </tr>
+            <tr id="levelRow">
+                <td>
+                    <label for="baseLv">Operator actual level</label>
+                    <input id="baseLv" type="number" value="1">
+                </td>
+                <td>
+                    <label for="toLv">Operator desired level</label>
+                    <input id="toLv" type="number" value="1">
+                </td>
+            </tr>
+        </table>
+        <button id="btn">Calculate</button>
+        <hr id="line">
+        <table id="result">
+            <tr id="defRow">
+                <td>Sanity needed</td>
+                <td>Number of run</td>
+                <td>Number of XP </td>
+                <td>Number of LMD</td>
+            </tr>
+            <tr id="valRow">
+                <td><input type="number" id="resSan" value="0" disabled></td>
+                <td><input type="number" id="resNum" value="0" disabled></td>
+                <td><input type="number" id="resXP" value="0" disabled></td>
+                <td><input type="number" id="resLMD" value="0" disabled></td>
+            </tr>
+            <tr><td><br> Details :</td></tr>
+            <tr id="detailXP">
+                <td><input type="number" id="detailsXPSan" value="0" disabled></td>
+                <td><input type="number" id="detailsXPNum" value="0" disabled></td>
+                <td><input type="number" id="detailsXP" value="0" disabled></td>
+            </tr>
+            <tr id="detailLMD">
+                <td><input type="number" id="detailsLMDSan" value="0" disabled></td>
+                <td><input type="number" id="detailsLMDNum" value="0" disabled></td>
+                <td></td>
+                <td><input type="number" id="detailsLMD" value="0" disabled></td>
+            </tr>
+        </table>
+        <h3 id="h3Err">ERROR DISPLAYER</h3>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
