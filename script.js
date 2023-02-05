@@ -1041,7 +1041,7 @@ btn.addEventListener('click', event => {
             audio.play();
             let audio2 = new Audio('ALARME.mp3');
             audio2.play();
-            let audio3 = new Audio('AUUGHHH.mp3');
+            let audio3 = new Audio('AUUGHHH!.mp3');
             audio3.play();
             document.getElementById('h3Err').innerHTML = "Operator actual Elite need to be inferior to the desired one !"
         }
