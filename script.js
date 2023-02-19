@@ -1043,7 +1043,7 @@ btn.addEventListener('click', event => {
             audio2.play();
             let audio3 = new Audio('AUUGHHH!.mp3');
             audio3.play();
-            document.getElementById('h3Err').innerHTML = "Operator actual Elite need to be inferior to the desired one !"
+            document.getElementById('h3Err').innerHTML = "Operator actual Elite needs to be inferior to the desired one !"
         }
     // If Elite value doesn't change the calulation will always be the same
     } else if(actuEl == desiEl) {
