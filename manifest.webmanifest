@@ -1,8 +1,9 @@
 {
     "name": "Arknight - Level Calculator",
     "short_name": "Ark - Calculator",
-    "start_url": "./?utm_source=web_app_manifest",
-    "display": "fullscreen",
+    "start_url": "https://sousaluis.github.io/Arknight---LvL-Calculator/",
+    "display": "standalone",
+    "background_color": "blue",
     "icons": [
       {
         "src": "assets/imgs/hoshi.png",
