@@ -1037,11 +1037,11 @@ btn.addEventListener('click', event => {
             }
             // return an error if desired Elite value in inferior to the actual one
         } else {
-            let audio = new Audio('BOAT.mp3');
+            let audio = new Audio('./assets/audio/BOAT.mp3');
             audio.play();
-            let audio2 = new Audio('ALARME.mp3');
+            let audio2 = new Audio('./assets/audio/ALARME.mp3');
             audio2.play();
-            let audio3 = new Audio('AUUGHHH!.mp3');
+            let audio3 = new Audio('./assets/audio/AUUGHHH!.mp3');
             audio3.play();
             document.getElementById('h3Err').innerHTML = "Operator actual Elite needs to be inferior to the desired one !"
         }

@@ -1,0 +1,13 @@
+{
+    "name": "Arknight - Level Calculator",
+    "short_name": "Ark - Calculator",
+    "start_url": "./?utm_source=web_app_manifest",
+    "display": "fullscreen",
+    "icons": [
+      {
+        "src": "assets/imgs/hoshi.png",
+        "sizes": "48x48",
+        "type": "image/png"
+      }
+    ]
+  }

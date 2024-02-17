@@ -3,7 +3,7 @@
 body {
     text-align: center;
     font-family:'The Wild Breath of Zelda', sans-serif;
-    background-image: url("./assets/arknight-lvl-simulator-background.jpg");
+    background-image: url("./assets/imgs/arknight-lvl-simulator-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -54,6 +54,6 @@ select, input {
     inset -36px -36px 71px rgba(255, 255, 255, 0.25);
 }
 
-#result input{
+#result input {
     width: 40%;
 }
